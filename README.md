@@ -3,12 +3,12 @@
 Python simulations of projectile and orbital motion using NumPy and Matplotlib.
 
 ## Projects
-- projectile.py: projectile motion without air resistance
+- projectile_motion.py: projectile motion without air resistance
 - projectile_drag.py: projectile motion with air drag, compared against the no-drag path
 - orbit_simulation.py: satellite orbits under gravity at different launch speeds
 
 ## Method
-- projectile.py: analytical (exact) solution
+- projectile_motion.py: analytical (exact) solution
 - projectile_drag.py and orbit_simulation.py: numerical Euler integration
   (semi-implicit for orbits: velocity updated before position)
 
